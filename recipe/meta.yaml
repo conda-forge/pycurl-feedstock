@@ -25,7 +25,6 @@ requirements:
     - openssl
   run:
     - python
-    - vs2015_runtime
 
 test:
   imports:

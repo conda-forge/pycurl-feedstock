@@ -2,4 +2,3 @@
 if errorlevel 1 exit 1
 
 rd /s /q %PREFIX%\Doc
-mv %SP_DIR%\pycurl.cp??-win_amd64.pyd pycurl.pyd

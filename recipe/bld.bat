@@ -2,3 +2,4 @@
 if errorlevel 1 exit 1
 
 rd /s /q %PREFIX%\Doc
+ls %SP_DIR%

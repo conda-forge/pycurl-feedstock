@@ -8,10 +8,10 @@ except:
 buf = BytesIO()
 
 c = pycurl.Curl()
-c.setopt(c.URL, 'https://repo.continuum.io/')
+c.setopt(c.URL, 'https://repo.anaconda.com/')
 c.setopt(c.WRITEFUNCTION, buf.write)
 c.perform()
 
 print(buf.getvalue())
-assert b'Anaconda, Inc.' in buf.getvalue()
+assert b'Anaconda' in buf.getvalue()
 buf.close()

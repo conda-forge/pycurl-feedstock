@@ -1,0 +1,26 @@
+From 3f929a9d90f6f84604f13258f0fa262c13a58485 Mon Sep 17 00:00:00 2001
+From: Chris Burr <christopher.burr@cern.ch>
+Date: Sun, 27 Jun 2021 21:13:30 +0200
+Subject: [PATCH] Remove bdist_msi for PyPy
+
+---
+ setup.py | 3 ---
+ 1 file changed, 3 deletions(-)
+
+diff --git a/setup.py b/setup.py
+index 1218377..445a86a 100644
+--- a/setup.py
++++ b/setup.py
+@@ -936,9 +936,6 @@ in COPYING-LGPL_ and COPYING-MIT_ files in the source distribution.
+     python_requires='>=3.5',
+ )
+ 
+-if sys.platform == "win32":
+-    setup_args['cmdclass'] = {'bdist_msi': get_bdist_msi_version_hack()}
+-
+ ##print distutils.__version__
+ if LooseVersion(distutils.__version__) > LooseVersion("1.0.1"):
+     setup_args["platforms"] = "All"
+-- 
+2.32.0
+

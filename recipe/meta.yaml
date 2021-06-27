@@ -11,6 +11,7 @@ source:
   sha256: {{ sha256 }}
   patches:
     - msvc_warnings.patch                     # [win]
+    - 0001-Remove-bdist_msi-for-PyPy.patch    # [win and python_impl == 'pypy']
 
 build:
   number: 1

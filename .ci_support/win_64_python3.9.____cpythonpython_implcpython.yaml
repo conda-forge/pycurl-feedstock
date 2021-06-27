@@ -1,9 +1,5 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '10.9'
 c_compiler:
-- clang
-c_compiler_version:
-- '11'
+- vs2017
 channel_sources:
 - conda-forge,defaults
 channel_targets:
@@ -12,8 +8,6 @@ curl:
 - '7'
 libcurl:
 - '7'
-macos_machine:
-- x86_64-apple-darwin13.4.0
 openssl:
 - 1.1.1
 pin_run_as_build:
@@ -28,5 +22,10 @@ pin_run_as_build:
     max_pin: x.x
 python:
 - 3.9.* *_cpython
+python_impl:
+- cpython
 target_platform:
-- osx-64
+- win-64
+zip_keys:
+- - python
+  - python_impl

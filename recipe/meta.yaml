@@ -1,6 +1,6 @@
 {% set name = "pycurl" %}
-{% set version = "7.43.0.6" %}
-{% set sha256 = "8301518689daefa53726b59ded6b48f33751c383cf987b0ccfbbc4ed40281325" %}
+{% set version = "7.44.1" %}
+{% set sha256 = "5bcef4d988b74b99653602101e17d8401338d596b9234d263c728a0c3df003e8" %}
 
 package:
   name: {{ name }}
@@ -14,7 +14,7 @@ source:
     - 0001-Remove-bdist_msi-for-PyPy.patch    # [win and python_impl == 'pypy']
 
 build:
-  number: 1
+  number: 0
   detect_binary_files_with_prefix: false
 
 requirements:

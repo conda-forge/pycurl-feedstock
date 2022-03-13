@@ -1,6 +1,6 @@
 {% set name = "pycurl" %}
-{% set version = "7.45.0" %}
-{% set sha256 = "5036c53c6f4106e9160d053a4baa3433a0215fb3386073e211273c56a3a95f3d" %}
+{% set version = "7.45.1" %}
+{% set sha256 = "a863ad18ff478f5545924057887cdae422e1b2746e41674615f687498ea5b88a" %}
 
 package:
   name: {{ name }}

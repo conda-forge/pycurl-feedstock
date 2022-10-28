@@ -17,10 +17,6 @@ libcurl:
 openssl:
 - '3'
 pin_run_as_build:
-  curl:
-    max_pin: x
-  libcurl:
-    max_pin: x
   python:
     min_pin: x.x
     max_pin: x.x

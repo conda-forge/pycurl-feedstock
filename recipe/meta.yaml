@@ -26,6 +26,8 @@ requirements:
     - python
     - libcurl
     - openssl
+    - pip
+    - setuptools
   run:
     - python
 

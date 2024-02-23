@@ -10,9 +10,8 @@ source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
   patches:
-    - msvc_warnings.patch                     # [win]
-    - 0001-Remove-bdist_msi-for-PyPy.patch    # [win and (python_impl == 'pypy' or py>=311)]
-    - pypy-compat.patch                       # [python_impl == 'pypy']
+    - msvc_warnings.patch                    # [win]
+    - pypy-compat.patch                      # [python_impl == 'pypy']
 
 build:
   number: 0

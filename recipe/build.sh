@@ -1,6 +1,7 @@
 #!/bin/bash
 
-$PYTHON setup.py install --curl-config=$PREFIX/bin/curl-config \
-    --openssl-dir=$PREFIX
+export PYCURL_CURL_CONFIG=$PREFIX/bin/curl-config
+
+$PYTHON -m pip install . --no-deps -vv
 
 rm -rf $PREFIX/share

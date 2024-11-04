@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pycurl-feedstoc
 
 Home: http://pycurl.sourceforge.net/
 
-Package license: LGPL, MIT
+Package license: LGPL-2.1-or-later OR curl
 
 Summary: A Python Interface To The cURL library
 

@@ -8,8 +8,8 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_channel_sourcesconda-forge,conda-forgelabelpython_rcpython3.14.____cp314:
-        CONFIG: win_64_channel_sourcesconda-forge,conda-forgelabelpython_rcpython3.14.____cp314
+      win_64_channel_sourcesconda-forgeconda-forgelabelpython_rcpython3.14.____cp314:
+        CONFIG: win_64_channel_sourcesconda-forgeconda-forgelabelpython_rcpython3.14.____cp314
         UPLOAD_PACKAGES: 'True'
       win_64_channel_sourcesconda-forgepython3.10.____cpython:
         CONFIG: win_64_channel_sourcesconda-forgepython3.10.____cpython

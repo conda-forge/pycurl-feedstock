@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: pycurl
-  version: "7.47.0"
-  sha256: 5e3cf357939da8d4ceefe3c7f305afcf9b47cba66cfd95e7768ca43b38445e14
+  version: "7.48.0"
+  sha256: b70961a76c412cd34f9cc2c9558e63f89fb37045c59eee396c585b52973be280
 
 package:
   name: ${{ name }}
@@ -19,7 +19,7 @@ source:
       then: pypy-compat.patch
 
 build:
-  number: 1
+  number: 0
   prefix_detection:
     ignore_binary_files: false
 

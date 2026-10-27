@@ -2,8 +2,8 @@ schema_version: 1
 
 context:
   name: pycurl
-  version: "7.48.0"
-  sha256: b70961a76c412cd34f9cc2c9558e63f89fb37045c59eee396c585b52973be280
+  version: "7.49.0"
+  sha256: d4327da9dea72768f942f831bbaa5a64adca4d7c89f3141da7a833d3c600ab90
 
 package:
   name: ${{ name }}

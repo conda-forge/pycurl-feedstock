@@ -19,7 +19,7 @@ source:
       then: pypy-compat.patch
 
 build:
-  number: 0
+  number: 1
   prefix_detection:
     ignore_binary_files: false
 
